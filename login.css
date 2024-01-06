@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Adjust the font, size, alignment etc of compelet form */
+.container {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	width: 80%;
+	max-width: 400px;
+	padding: 18px;
+	margin: auto;
+	background-color: blanchedalmond;
+}
+
+/* Make adjustment in input */
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+/* make adjustment in buttons */
+button[type="submit"], button[type="button"] {
+	background-color: rgb(112, 138, 211);
+	font-size: medium;
+	border: 1px solid rgb(122, 138, 211);
+	border-radius: 4px;
+	width: 100%;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+/* making the button hover */
+button[type="submit"]:hover {
+	background-color: rgb(96, 201, 236);
+}
+
+button[type="button"]:hover {
+	background-color: rgb(96, 201, 236);
+}

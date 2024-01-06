@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Page alignment */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    padding: 18px;
+    margin: auto;
+    background-color: rgb(247, 194, 242);
+}
+
+/* content alignment */
+input[type="text"],
+input[type="date"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 6px 0;
+}
+
+/* button alignment */
+button[type="submit"],
+button[type="reset"] {
+    background-color: rgb(245, 178, 97);
+    font-size: medium;
+    border: 1px solid rgb(226, 64, 97);
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* button hover */
+button[type="submit"]:hover {
+    background-color: rgb(238, 201, 187);
+}
+button[type="reset"]:hover {
+    background-color: rgb(238, 201, 187);
+}
